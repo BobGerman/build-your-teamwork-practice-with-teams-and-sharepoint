@@ -1,11 +1,11 @@
 # Teams + Flow
 
-Create flows that automate repetitive work tasks—and trigger right from your Microsoft Teams data. 
+Create flows that automate repetitive work tasks—and trigger right from your Microsoft Teams data.
 Explore Teams Templates and connectors at <https://flow.microsoft.com/en-us/connectors/shared_teams/microsoft-teams/>
 
 ## Lab 1 - Create an approval flow that posts notification messages to teams
 
-Let’s imagine that you’re the Chief Compliance Officer at the Legal department at Contoso Inc. You want to send out an approval request whenever a new document is uploaded to the Legal folder in a SharePoint document library. To inform approvers and ensure everyone has visibility into any feedback, you want to notify your teammates on Microsoft Teams. With the Flow integration in Teams, you can quickly create a flow and boost your team’s productivity. 
+Let’s imagine that you’re the Chief Compliance Officer at the Legal department at Contoso Inc. You want to send out an approval request whenever a new document is uploaded to the Legal folder in a SharePoint document library. To inform approvers and ensure everyone has visibility into any feedback, you want to notify your teammates on Microsoft Teams. With the Flow integration in Teams, you can quickly create a flow and boost your team’s productivity.
 
 1. Setup
 
@@ -56,7 +56,7 @@ Some governance policies might not allow their Teams members create channels in 
 
     * Click on **Add an action** then search for "Start an approval". Once added, fill out the approval fields as shown below. Click on **Dynamic content** to add the Channel Name and Link to item. In the Assigned to field enter the team owner(s).
 
-        ![screenshot of approval action](./images/approval.png)
+        ![screenshot of approval action](./images/Approval.png)
 
     * Click on **Add an action** then search for the "Condition Control". Once added, click on dynamic content to select Response, select "is equal to" from the dropdown and then type in Approve. Click on Add an action underneath the If yes section. Search for Teams then select **Create a channel**. Select the Team for the Team Id field and then select Channel Name from the dynamic content for the Display Name.
 
